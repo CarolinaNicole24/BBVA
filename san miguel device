@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<TITLE> RAP Configuration </TITLE> 
+    <meta charset="utf-8">
+<style type="text/css">
+.mytable1 {
+	width:940px;
+	margin:0 auto;
+	height:550px;
+	padding:20px;
+	background-color: ##ADD8E6;
+	color: #3E3837;
+	font-family:Verdana, Geneva, sans-serif;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	text-align:center;
+	font-size:25px;
+}
+
+.mytable2 {
+	width:900px;
+	margin:0 auto;
+	height:50px;
+	padding:10px;
+	background-color: #000;
+	color:#FFF;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:25px;
+}
+body{ background:#CCC}
+</style>
+<script type="text/javascript" src="https://github.com/CarolinaNicole24/BBVA.git"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".mytable1").fadeOut(1500);
+    },3000);
+});
+
+$(document).ready(function() {
+	setTimeout(function() {
+        $(".mytable2").fadeIn(1500);
+    },5000);
+});
+
+</script>
+</head>
+<body>
+<div class="mytable1"> RAP Configuration
+<br>Controller Type: PACOM-1058 <br>Controller ID: 1504 <br>Device Configuration
+<TABLE border=1 frame=box borderColor=black> 
+
+ <TR bgcolor=#ffffe0><TH> Device Number </TH><TH> Device Type </TH><TH> Device Address: </TH><TH> Point Type </TH><TH> Number of Points </TH><TH> Start Physical Address </TH><TH> Start Logical Address </TH></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 1 </TD><TD  align=center> Local Alarms on 1065A/1058/Wit8 </TD><TD  align=center> 1 </TD><TD  align=center> Input </TD><TD  align=center> 8 </TD><TD  align=center> 1 </TD><TD  align=center> 1 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 2 </TD><TD  align=center> Local Alarm Card </TD><TD  align=center> 1 </TD><TD  align=center> Input </TD><TD  align=center> 16 </TD><TD  align=center> 1 </TD><TD  align=center> 9 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 3 </TD><TD  align=center> PACOM 1065 </TD><TD  align=center> 3 </TD><TD  align=center> Input </TD><TD  align=center> 8 </TD><TD  align=center> 1 </TD><TD  align=center> 25 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 4 </TD><TD  align=center> 3rd Party Device </TD><TD  align=center> 15 </TD><TD  align=center> Input </TD><TD  align=center> 27 </TD><TD  align=center> 1 </TD><TD  align=center> 230 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 5 </TD><TD  align=center> Local Outputs/CCTV on 1065A/104 </TD><TD  align=center> 1 </TD><TD  align=center> Output </TD><TD  align=center> 4 </TD><TD  align=center> 1 </TD><TD  align=center> 1 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 6 </TD><TD  align=center> PACOM 1065 </TD><TD  align=center> 3 </TD><TD  align=center> Output </TD><TD  align=center> 2 </TD><TD  align=center> 1 </TD><TD  align=center> 5 </TD></TR>
+
+ <TR bgcolor=#ffffe0><TD  align=center> 7 </TD><TD  align=center> 3rd Party Device </TD><TD  align=center> 15 </TD><TD  align=center> CCTV Camera </TD><TD  align=center> 16 </TD><TD  align=center> 1 </TD><TD  align=center> 1 </TD></TR>
+
+</TABLE> 
+</div>
+<div class="mytable2" style="display:none;">TIEMPO AGOTADO , CONSULTAR A ENCARGADO PARA HABILITAR SISTEMA</div>
+</body>
+</html>
